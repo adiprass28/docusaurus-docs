@@ -6,8 +6,8 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: "Dokumentasi Hasil Belajar",
-  tagline: "Learning by Doing",
+  title: "Lahan Koding",
+  tagline: "Tuliskan Hasil Belajar Koding di Lahan yang Kosong",
   url: "https://adiprass.my.id",
   baseUrl: "/",
   onBrokenLinks: "throw",
@@ -44,10 +44,10 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: "My Site",
+        title: "Lahan Koding",
         logo: {
           alt: "My Site Logo",
-          src: "img/logo.svg",
+          src: "img/logo1.png",
         },
         items: [
           {
