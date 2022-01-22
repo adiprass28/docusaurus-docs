@@ -8,7 +8,7 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 const config = {
   title: "Lahan Koding",
   tagline: "Tuliskan Hasil Belajar Koding di Lahan yang Kosong",
-  url: "https://adiprass.my.id",
+  url: "https://lahankoding.web.app",
   baseUrl: "/",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
@@ -25,13 +25,13 @@ const config = {
           sidebarPath: require.resolve("./sidebars.js"),
           // Please change this to your repo.
           editUrl:
-            "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
+            "https://github.com/adiprass28/docusaurus-docs/tree/main/docs",
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           editUrl:
-            "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
+            "https://github.com/adiprass28/docusaurus-docs/tree/main/blog",
         },
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
@@ -58,7 +58,7 @@ const config = {
           },
           { to: "/blog", label: "Blog", position: "left" },
           {
-            href: "https://github.com/facebook/docusaurus",
+            href: "https://github.com/adiprass28/docusaurus-docs",
             label: "GitHub",
             position: "right",
           },
