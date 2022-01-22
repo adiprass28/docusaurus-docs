@@ -49,3 +49,26 @@ Beberapa alasan untuk menggunakan adalah:
 - Dengan mempalajari satu bahasa yaitu Javascript, kita dapat menggunakannya dari sisi _frontend_ maupun _backend_.
 - Menggunakan teknologi _event-driven_ dan _non-blocking I/O_ yang membuatnya ringan serta efisien.
 - Dukungan ekosistem dari Node Package Manager (npm) yang luas serta komunitasnya besar.
+
+### Membuat dan menjalankan aplikasi Node
+
+Untuk membuat aplikasi Node pertama kali kita harus membuat folder untuk menempatkan aplikasi yang kita buat.
+
+```bash title="terminal"
+mkdir first-node-app
+cd first-node-app
+```
+
+Buat sebuah file, sebagai contoh kita namakan `app.js`
+
+```js title="first-node-app/app.js
+console.log("hello world!");
+```
+
+Pastikan pada terminal kita menjalankan perintah di folder `first-node-app/`
+
+```bash title="terminal"
+node app.js
+```
+
+Di terminal kita dapat melihat kode Javascript kita berjalan.
